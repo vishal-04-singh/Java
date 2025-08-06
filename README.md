@@ -22,11 +22,12 @@
 ## 3. Writing and Running My First Java Code
 - Created a simple "Hello World" program as my first Java code:
   ```java
-  public class q {
-      public static void main(String[] args) {
-          System.out.println("Hello World");
-      }
-  }
+  public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+
   ```
 - Compiled and ran the code using:
   ```bash
@@ -37,19 +38,21 @@
 ## 4. Writing a Program to Sum Two Numbers
 - Wrote a program to calculate the sum of two numbers:
   ```java
-  class Main {
-      public static void main(String[] args) {
-          int q = 2;
-          int r = 1;
-          int sum = q + r;
-          System.out.println(sum);
-      }
+  class Sum {
+  public static void main(String[] args) {
+    int q=2;
+    int r=1;
+    int sum=q+r;
+    System.out.println(sum);
+    }
   }
+
+
   ```
 - Compiled and ran the code using:
   ```bash
-  javac Main.java
-  java Main
+  javac Sum.java
+  java Sum
   ```
 
 ## 5. Installing Eclipse IDE on macOS
