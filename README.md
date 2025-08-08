@@ -32,8 +32,8 @@
   ```
 - Compiled and ran the code using:
   ```bash
-  javac q.java
-  java q
+  javac Hello.java
+  java Hello
   ```
 
 ## 4. Writing a Program to Sum Two Numbers
