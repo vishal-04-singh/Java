@@ -1,3 +1,4 @@
+package lab_2;
 
 //write a progam to print your identity card  details using the scanner class
 
@@ -11,7 +12,9 @@ class Carddetails{
     String name = details.nextLine();
 
     System.out.println("Enter Your Global ID : ");
-    String Global_ID = details.nextLine();
+    int Global_ID = details.nextInt();
+
+    details.nextLine();
 
     System.out.println("Enter Your School : ");
     String School = details.nextLine();

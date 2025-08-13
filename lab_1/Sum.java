@@ -1,3 +1,4 @@
+package lab_1;
 class Sum {
   public static void main(String[] args) {
     int q=2;
