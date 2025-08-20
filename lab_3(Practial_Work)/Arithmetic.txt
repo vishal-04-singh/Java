@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class Arithmetic {
+
+    void add(int x, int y) {
+        int sum = x + y;
+        System.out.println("Sum of x and y: " + sum);
+    }
+
+    void sub(int x, int y) {
+        int sub = x - y;
+        System.out.println("Subtraction of x and y: " + sub);
+    }
+
+    void mul(int x, int y) {
+        int mul = x * y;
+        System.out.println("Multiplication of x and y: " + mul);
+    }
+     void div(int x, int y) {
+        if (y != 0) {
+            int div = x / y;
+            System.out.println("Division of x and y: " + div);
+        } else {
+            System.out.println("Division by zero is not allowed.");
+        }
+    }
+
+    void mod(int x, int y) {
+        if (y != 0) {
+            int mod = x % y;
+            System.out.println("Modulus of x and y: " + mod);
+        } else {
+            System.out.println("Modulus by zero is not allowed.");
+        }
+    }
+
+
+    public static void main(String[] args) {
+        Scanner SC = new Scanner(System.in);
+        System.out.print("ENTER VALUE OF X :");
+        int x = SC.nextInt();
+        System.out.print("ENTER VALUE OF Y :");
+        int y = SC.nextInt();
+        
+           
+        Arithmetic Ar = new Arithmetic();
+        
+         
+        Ar.add(x, y);
+        Ar.sub(x, y);
+        Ar.mul(x, y);
+        Ar.div(x, y);
+        Ar.mod(x, y);
+    }
+}
